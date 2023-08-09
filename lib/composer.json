@@ -1,0 +1,25 @@
+{
+    "name": "bugrovweb/sentrylog",
+    "type": "bitrix-module",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bugrovweb\\Sentrylog\\": "general/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Александр",
+            "email": "a.bugrov@intensa.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "sentry/sdk": "^3.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
